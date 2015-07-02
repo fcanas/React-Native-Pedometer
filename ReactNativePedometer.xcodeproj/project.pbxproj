@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E775A0EA1B45E066005A7C59 /* libReactNativePedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E775A0DE1B45E066005A7C59 /* libReactNativePedometer.a */; };
+		E775A0FA1B45E09F005A7C59 /* FFCPedometer.m in Sources */ = {isa = PBXBuildFile; fileRef = E775A0F91B45E09F005A7C59 /* FFCPedometer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E775A0EB1B45E066005A7C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E775A0D61B45E066005A7C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E775A0DD1B45E066005A7C59;
+			remoteInfo = ReactNativePedometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E775A0DC1B45E066005A7C59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E775A0DE1B45E066005A7C59 /* libReactNativePedometer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativePedometer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E775A0E91B45E066005A7C59 /* ReactNativePedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativePedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E775A0EF1B45E066005A7C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E775A0F81B45E09F005A7C59 /* FFCPedometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCPedometer.h; sourceTree = "<group>"; };
+		E775A0F91B45E09F005A7C59 /* FFCPedometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCPedometer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E775A0DB1B45E066005A7C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E775A0E61B45E066005A7C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E775A0EA1B45E066005A7C59 /* libReactNativePedometer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E775A0D51B45E066005A7C59 = {
+			isa = PBXGroup;
+			children = (
+				E775A0E01B45E066005A7C59 /* ReactNativePedometer */,
+				E775A0ED1B45E066005A7C59 /* ReactNativePedometerTests */,
+				E775A0DF1B45E066005A7C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E775A0DF1B45E066005A7C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E775A0DE1B45E066005A7C59 /* libReactNativePedometer.a */,
+				E775A0E91B45E066005A7C59 /* ReactNativePedometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E775A0E01B45E066005A7C59 /* ReactNativePedometer */ = {
+			isa = PBXGroup;
+			children = (
+				E775A0F81B45E09F005A7C59 /* FFCPedometer.h */,
+				E775A0F91B45E09F005A7C59 /* FFCPedometer.m */,
+			);
+			path = ReactNativePedometer;
+			sourceTree = "<group>";
+		};
+		E775A0ED1B45E066005A7C59 /* ReactNativePedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E775A0EE1B45E066005A7C59 /* Supporting Files */,
+			);
+			path = ReactNativePedometerTests;
+			sourceTree = "<group>";
+		};
+		E775A0EE1B45E066005A7C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E775A0EF1B45E066005A7C59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E775A0DD1B45E066005A7C59 /* ReactNativePedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E775A0F21B45E066005A7C59 /* Build configuration list for PBXNativeTarget "ReactNativePedometer" */;
+			buildPhases = (
+				E775A0DA1B45E066005A7C59 /* Sources */,
+				E775A0DB1B45E066005A7C59 /* Frameworks */,
+				E775A0DC1B45E066005A7C59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativePedometer;
+			productName = ReactNativePedometer;
+			productReference = E775A0DE1B45E066005A7C59 /* libReactNativePedometer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E775A0E81B45E066005A7C59 /* ReactNativePedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E775A0F51B45E066005A7C59 /* Build configuration list for PBXNativeTarget "ReactNativePedometerTests" */;
+			buildPhases = (
+				E775A0E51B45E066005A7C59 /* Sources */,
+				E775A0E61B45E066005A7C59 /* Frameworks */,
+				E775A0E71B45E066005A7C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E775A0EC1B45E066005A7C59 /* PBXTargetDependency */,
+			);
+			name = ReactNativePedometerTests;
+			productName = ReactNativePedometerTests;
+			productReference = E775A0E91B45E066005A7C59 /* ReactNativePedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E775A0D61B45E066005A7C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Fabian Canas";
+				TargetAttributes = {
+					E775A0DD1B45E066005A7C59 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E775A0E81B45E066005A7C59 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E775A0D91B45E066005A7C59 /* Build configuration list for PBXProject "ReactNativePedometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E775A0D51B45E066005A7C59;
+			productRefGroup = E775A0DF1B45E066005A7C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E775A0DD1B45E066005A7C59 /* ReactNativePedometer */,
+				E775A0E81B45E066005A7C59 /* ReactNativePedometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E775A0E71B45E066005A7C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E775A0DA1B45E066005A7C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E775A0FA1B45E09F005A7C59 /* FFCPedometer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E775A0E51B45E066005A7C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E775A0EC1B45E066005A7C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E775A0DD1B45E066005A7C59 /* ReactNativePedometer */;
+			targetProxy = E775A0EB1B45E066005A7C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E775A0F01B45E066005A7C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E775A0F11B45E066005A7C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E775A0F31B45E066005A7C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E775A0F41B45E066005A7C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E775A0F61B45E066005A7C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactNativePedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E775A0F71B45E066005A7C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactNativePedometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E775A0D91B45E066005A7C59 /* Build configuration list for PBXProject "ReactNativePedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E775A0F01B45E066005A7C59 /* Debug */,
+				E775A0F11B45E066005A7C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E775A0F21B45E066005A7C59 /* Build configuration list for PBXNativeTarget "ReactNativePedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E775A0F31B45E066005A7C59 /* Debug */,
+				E775A0F41B45E066005A7C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E775A0F51B45E066005A7C59 /* Build configuration list for PBXNativeTarget "ReactNativePedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E775A0F61B45E066005A7C59 /* Debug */,
+				E775A0F71B45E066005A7C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E775A0D61B45E066005A7C59 /* Project object */;
+}
